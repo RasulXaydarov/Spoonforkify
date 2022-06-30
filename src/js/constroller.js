@@ -17,7 +17,7 @@ import "regenerator-runtime/runtime";
 async function controlRecipes() {
   try {
     const id = window.location.hash.slice(1);
-    console.log(id);
+
     if (!id) return;
     recipeView.renderSpinner();
 
