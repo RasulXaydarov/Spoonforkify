@@ -19,8 +19,7 @@ class PreviewView extends View {
               <h4 class="preview__title">${this._data.title}</h4>
               <p class="preview__publisher">${this._data.publisher}</p>
               <div class="preview__user-generated">
-                <svg>
-                </svg>
+               
               </div>
            </div>
           </a>
